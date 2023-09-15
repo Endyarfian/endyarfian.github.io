@@ -90,7 +90,7 @@ const About = () => {
           <div className="edrea_tm_about">
             <div className="left">
               <div className="image">
-                {/* <img src="img/thumbs/1-1.jpg" alt="" /> */}
+                <img src="img/thumbs/1-1.jpg" alt="" />
                 <div className="main" data-img-url="img/about/1.jpg" />
               </div>
             </div>

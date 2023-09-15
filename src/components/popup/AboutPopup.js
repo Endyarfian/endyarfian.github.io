@@ -42,13 +42,13 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-calendar" />
+                    <i className="icon-calendar-2" />
                     <span>{aboutData.bithday}</span>
                   </div>
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-location" />
+                    <i className="icon-location-outline" />
                     <span>
                       <a href="#" className="href_location">
                         {aboutData.address}
@@ -58,7 +58,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-phone" />
+                    <i className="icon-mobile" />
                     <span>
                       <a href="#">{aboutData.phn}</a>
                     </span>
@@ -66,7 +66,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-mail-1" />
+                    <i className="icon-mail-2" />
                     <span>
                       <a href={`mailto:${aboutData.email}`}>
                         {aboutData.email}
@@ -353,7 +353,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                       <div className="text">
                         <i className="icon-quote-left" />
                         <p>
-                        Thanku pak, video sama poster media kampanyenya memuaskan, diapresiasi sama pimpinan pula. Komunikatif soal ide sama design, biaya konsultasinya juga sangat bersaing. Terbaikk!
+                        Thanks pak, video sama poster media kampanyenya memuaskan, diapresiasi sama pimpinan pula. Komunikatif soal ide sama design, biaya konsultasinya juga sangat bersaing. Terbaikk!
                         </p>
                       </div>
                       <div className="details">

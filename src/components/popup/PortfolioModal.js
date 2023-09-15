@@ -9,7 +9,7 @@ const PortfolioModal = ({ close, open }) => {
           <div className="main" data-img-url="img/portfolio/4.jpg" />
         </div>
         <div className="portfolio_main_title">
-          <h3>Delicious Apple</h3>
+          <h3>KHDTK Web</h3>
           <span>
             <a href="#">Detail</a>
           </span>

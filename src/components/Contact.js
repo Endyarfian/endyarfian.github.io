@@ -55,7 +55,7 @@ const Contact = () => {
               <ul>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-location" />
+                    <i className="icon-location-outline" />
                     <span>
                       <a href="#" className="href_location">
                         Sleman, Yogyakarta, ID
@@ -65,7 +65,7 @@ const Contact = () => {
                 </li>
                 <li>
                   <div className="list_inner">
-                    <i className="icon-mail-1" />
+                    <i className="icon-mail-2" />
                     <span>
                       <a href="mailto:endyarfian94@gmail.com">endyarfian94@gmail.com
                       </a>
@@ -85,6 +85,14 @@ const Contact = () => {
                     <i className="icon-instagram-3" />
                     <span>
                       <a href="https://instagram.com/endyarfian">endyarfian</a>
+                    </span>
+                  </div>
+                </li>
+                <li>
+                  <div className="list_inner">
+                    <i className="icon-linkedin-3" />
+                    <span>
+                      <a href="https://linkedin.com/in/endyarfian">endyarfian</a>
                     </span>
                   </div>
                 </li>
