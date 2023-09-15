@@ -353,8 +353,7 @@ const AboutPopup = ({ open, close, aboutData }) => {
                       <div className="text">
                         <i className="icon-quote-left" />
                         <p>
-                          Beautiful minimalist design and great, fast response
-                          with support. Highly recommend. Thanks Marketify!
+                        Thanku pak, video sama poster media kampanyenya memuaskan, diapresiasi sama pimpinan pula. Komunikatif soal ide sama design, biaya konsultasinya juga sangat bersaing. Terbaikk!
                         </p>
                       </div>
                       <div className="details">
