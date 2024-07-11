@@ -19,7 +19,7 @@ const PortfolioModal = ({ close, open }) => {
         <div className="text">
           <p>
             Sistem informasi Gambut dan Mangrove (SIGAMMA) is a system designed to store and process Peat and Mangrove data, which can be used as a system that can help in the decision-making process and as a tool that can help in the process of managing peat and mangrove areas throughout Indonesia.
-            The main function of this system is the implementation of BRGM's business model, namely planning, implementation, monitoring and evaluation of activities carried out by BRGM in managing peat and mangrove areas. 
+            The main function of this system is the implementation of BRGM business model, namely planning, implementation, monitoring and evaluation of activities carried out by BRGM in managing peat and mangrove areas. 
           </p>
           <p>
           
