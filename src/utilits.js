@@ -141,13 +141,13 @@ export const imgToSVG = () => {
 };
 
 export const activeSection = (value) => {
-  const sections = document.querySelectorAll(".edrea_tm_section");
+  const sections = document.querySelectorAll("._tm_section");
   sections.forEach((section) => {
     let id = section.getAttribute("id");
     if (id == value) {
-      section.className = "edrea_tm_section active wow animated fadeInUp";
+      section.className = "_tm_section active wow animated fadeInUp";
     } else {
-      section.className = "edrea_tm_section hidden animated";
+      section.className = "_tm_section hidden animated";
     }
   });
 };

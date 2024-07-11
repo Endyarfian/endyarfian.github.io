@@ -7,7 +7,7 @@ const Modal = ({ open, close, children }) => {
   });
   return (
     <Fragment>
-      <div className={`edrea_tm_modalbox ${open ? "opened" : ""}`}>
+      <div className={`_tm_modalbox ${open ? "opened" : ""}`}>
         <div className="box_inner" ref={domNode}>
           <div className="close">
             <a href="#" onClick={() => close()}>

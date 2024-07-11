@@ -14,7 +14,7 @@ const MobileHeader = () => {
 
   return (
     <Fragment>
-      <div className="edrea_tm_topbar">
+      <div className="_tm_topbar">
         <div className="topbar_inner">
           <div className="logo">
             <a href="#">
@@ -34,7 +34,7 @@ const MobileHeader = () => {
           </div>
         </div>
       </div>
-      <div className={`edrea_tm_mobile_menu ${toggle ? "opened" : ""}`}>
+      <div className={`_tm_mobile_menu ${toggle ? "opened" : ""}`}>
         <div className="inner">
           <div className="menu_list">
             <ul className="transition_link">

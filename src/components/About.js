@@ -19,8 +19,8 @@ const aboutData = {
   skills: {
     programming: [
       { name: "PHP", value: "70" },
-      { name: "Java Script", value: "60" },
-      { name: "SQL", value: "80" },
+      { name: "Java Script", value: "50" },
+      { name: "Database", value: "75" },
     ],
     other: [
       { name: "GIS", value: "80" },
@@ -38,18 +38,30 @@ const aboutData = {
   ],
   working: [
     {
-      year: "2021 - Running",
-      company: "Geo Circle Indonesia",
-      deg: "Spatial Data Analyst",
-    },
-    {
       year: "2014 - Running",
       company: "Freelance",
       deg: "Creative Designer, 2D/3D Animator, Web Developer",
     },
+    {
+      year: "2021 - 2023",
+      company: "Geo Circle Indonesia",
+      deg: "Spatial Data Analyst",
+    },
     { year: "2019 - 2020", company: "Agri Muda Swasembada Foundation", deg: "Social Media Content" },
   ],
   project: [
+    {
+      year: "2024",
+      company: "DISHUT JATIM",
+      as: "Database Engineer & GIS Specilist",
+      deg: "Inventarisasi Hutan Rakyat Provinsi Jawa Timur",
+    },
+    {
+      year: "2024",
+      company: "Primamulti Buana & UGM",
+      as: "Surveyor & GIS Specilist",
+      deg: "Penaksiran Cadangan Karbon dan Keankaragaman Hayati",
+    },
     {
       year: "2023",
       company: "BRGM & UGM",
@@ -85,9 +97,9 @@ const About = () => {
         close={() => setPopup(false)}
         aboutData={aboutData}
       />
-      <div className="edrea_tm_section hidden animated" id="about">
+      <div className="_tm_section hidden animated" id="about">
         <div className="section_inner">
-          <div className="edrea_tm_about">
+          <div className="_tm_about">
             <div className="left">
               <div className="image">
                 <img src="img/thumbs/1-1.jpg" alt="" />
@@ -112,7 +124,7 @@ const About = () => {
                   acquired the skills and knowledge.
                 </p>
               </div>
-              <div className="edrea_tm_button">
+              <div className="_tm_button">
                 <a href="#" onClick={() => setPopup(true)}>
                   Learn More
                 </a>

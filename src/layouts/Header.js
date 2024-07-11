@@ -8,7 +8,7 @@ const Header = () => {
   const activeNav = (value) => (value == nav ? "active" : "");
 
   return (
-    <div className="edrea_tm_header">
+    <div className="_tm_header">
       <div className="header_inner">
         <div className="logo">
           <a href="#" onClick={() => changeNav("home")}>

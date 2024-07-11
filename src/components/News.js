@@ -76,10 +76,10 @@ const News = () => {
   return (
     <Fragment>
       <NewsPopup open={modal} close={() => setModal(false)} data={activeData} />
-      <div className="edrea_tm_section hidden animated" id="news">
+      <div className="_tm_section hidden animated" id="news">
         <div className="section_inner">
-          <div className="edrea_tm_news swiper-section">
-            <div className="edrea_tm_main_title">
+          <div className="_tm_news swiper-section">
+            <div className="_tm_main_title">
               <h3>
                 Latest <span className="coloring">News</span>
               </h3>
@@ -94,7 +94,7 @@ const News = () => {
                           <img src="img/thumbs/4-3.jpg" alt="" />
                           <div className="main" data-img-url={news.img} />
                           <a
-                            className="edrea_tm_full_link news_popup"
+                            className="_tm_full_link news_popup"
                             href="#"
                             onClick={() => onClick(i)}
                           />
@@ -115,7 +115,7 @@ const News = () => {
                     </SwiperSlide>
                   ))}
                 </div>
-                <div className="edrea_tm_swiper_progress fill">
+                <div className="_tm_swiper_progress fill">
                   <div className="my_pagination_in">
                     <span className="currentNews" />
                     <span className="pagination_progress">

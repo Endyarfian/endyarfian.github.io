@@ -26,7 +26,7 @@ const Settings = () => {
     getMagicCursor("show");
   }, []);
   return (
-    <div className={`edrea_tm_settings ${toggle ? "opened" : ""}`}>
+    <div className={`_tm_settings ${toggle ? "opened" : ""}`}>
       <div className="icon">
         <img className="svg" src="img/setting.svg" alt="" />
         <a className="link" href="#" onClick={() => setToggle(!toggle)} />

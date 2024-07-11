@@ -11,10 +11,10 @@ const Portfolio = () => {
     <Fragment>
       <PortfolioModal open={modal} close={() => setModal(false)} />
       <PortfolioModal2 open={modal2} close={() => setModal2(false)} />
-      <div className="edrea_tm_section hidden animated" id="portfolio">
+      <div className="_tm_section hidden animated" id="portfolio">
         <div className="section_inner">
-          <div className="edrea_tm_portfolio swiper-section">
-            <div className="edrea_tm_main_title">
+          <div className="_tm_portfolio swiper-section">
+            <div className="_tm_main_title">
               <h3>
                 Creative <span className="coloring">Portfolio</span>
               </h3>
@@ -28,34 +28,15 @@ const Portfolio = () => {
                         <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
-                          data-img-url="img/portfolio/2.jpg"
+                          data-img-url="img/portfolio/sigamma.jpg"
                         />
                       </div>
                       <div className="details">
-                        <h3>Good Present</h3>
-                        <span>Youtube</span>
+                        <h3>SIGAMMA</h3>
+                        <span style={{ fontSize: "10px" }}>Sistem Informasi Gambut dan Mangrove</span>
                       </div>
                       <a
-                        className="edrea_tm_full_link popup-youtube"
-                        href="//www.youtube.com/embed/7e90gBu4pas?autoplay=1"
-                      />
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="list_inner">
-                      <div className="image">
-                        <img src="img/thumbs/1-1.jpg" alt="" />
-                        <div
-                          className="main"
-                          data-img-url="img/portfolio/4.jpg"
-                        />
-                      </div>
-                      <div className="details">
-                        <h3>Delicious Apple</h3>
-                        <span>Detail</span>
-                      </div>
-                      <a
-                        className="edrea_tm_full_link portfolio_popup"
+                        className="_tm_full_link portfolio_popup"
                         href="#"
                         onClick={() => setModal(true)}
                       />
@@ -67,41 +48,22 @@ const Portfolio = () => {
                         <img src="img/thumbs/1-1.jpg" alt="" />
                         <div
                           className="main"
-                          data-img-url="img/portfolio/4.jpg"
+                          data-img-url="img/portfolio/simpata.png"
                         />
                       </div>
                       <div className="details">
-                        <h3>Delicious Apple</h3>
-                        <span>Detail</span>
+                        <h3>SIMPATA</h3>
+                        <span style={{ fontSize: "10px" }}>Sistem Informasi Pemantauan Hutan</span>
                       </div>
                       <a
-                        className="edrea_tm_full_link portfolio_popup"
+                        className="_tm_full_link portfolio_popup"
                         href="#"
                         onClick={() => setModal2(true)}
                       />
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="list_inner">
-                      <div className="image">
-                        <img src="img/thumbs/1-1.jpg" alt="" />
-                        <div
-                          className="main"
-                          data-img-url="img/portfolio/5.jpg"
-                        />
-                      </div>
-                      <div className="details">
-                        <h3>Blue Lemon</h3>
-                        <span>Image</span>
-                      </div>
-                      <a
-                        className="edrea_tm_full_link zoom"
-                        href="img/portfolio/5.jpg"
-                      />
-                    </div>
-                  </SwiperSlide>
                 </div>
-                <div className="edrea_tm_swiper_progress fill">
+                <div className="_tm_swiper_progress fill">
                   <div className="my_pagination_in">
                     <span className="current" />
                     <span className="pagination_progress">

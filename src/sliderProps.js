@@ -22,12 +22,12 @@ const props = (currentCls, totalCls, allCls) => {
     },
 
     pagination: {
-      el: ".edrea_tm_swiper_progress",
+      el: "._tm_swiper_progress",
       type: "custom", // progressbar
       renderCustom: function (swiper, current, total) {
         // progress animation
         var scale, translateX;
-        var progressDOM = document.querySelector(".edrea_tm_swiper_progress");
+        var progressDOM = document.querySelector("._tm_swiper_progress");
         if (progressDOM.classList.contains("fill")) {
           translateX = "0px";
           scale = parseInt((current / total) * 100) / 100;

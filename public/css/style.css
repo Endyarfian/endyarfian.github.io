@@ -5,20 +5,20 @@
 /*	Author: Marketify
 /*	This file is made for CURRENT TEMPLATE
 
-01)	EDREA BASE
-02)	EDREA MOBILE MENU
-03) EDREA HEADER
-04) EDREA CONTENT
-05) EDREA HOME
-06) EDREA ABOUT
-07) EDREA PORTFOLIO
-08) EDREA NEWS
-09) EDREA CONTACT
-10) EDREA MAGIC CURSOR
-11) EDREA MEDIA QUERIES (FOR SMALL DEVIVES)
+01)	 BASE
+02)	 MOBILE MENU
+03)  HEADER
+04)  CONTENT
+05)  HOME
+06)  ABOUT
+07)  PORTFOLIO
+08)  NEWS
+09)  CONTACT
+10)  MAGIC CURSOR
+11)  MEDIA QUERIES (FOR SMALL DEVIVES)
 
 /*---------------------------------------------------*/
-/*	01) EDREA BASE
+/*	01)  BASE
 /*---------------------------------------------------*/
 
 :root {
@@ -107,15 +107,15 @@ h5 {
 h6 {
   font-size: 16px;
 }
-.edrea_tm_all_wrap {
+._tm_all_wrap {
   width: 100%;
   min-height: 100vh;
   clear: both;
   float: left;
   position: relative;
 }
-.edrea_tm_all_wrap,
-.edrea_tm_all_wrap * {
+._tm_all_wrap,
+._tm_all_wrap * {
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
@@ -248,10 +248,10 @@ h6 {
 }
 
 /*---------------------------------------------------*/
-/*	02) EDREA MOBILE MENU
+/*	02)  MOBILE MENU
 /*---------------------------------------------------*/
 
-.edrea_tm_topbar {
+._tm_topbar {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -261,7 +261,7 @@ h6 {
   z-index: 10;
   display: none;
 }
-.edrea_tm_topbar .topbar_inner {
+._tm_topbar .topbar_inner {
   width: 100%;
   height: 100%;
   clear: both;
@@ -270,33 +270,33 @@ h6 {
   justify-content: space-between;
   padding: 0px 20px;
 }
-.edrea_tm_topbar .logo img {
+._tm_topbar .logo img {
   max-width: 100px;
   max-height: 40px;
 }
-.edrea_tm_topbar .hamburger {
+._tm_topbar .hamburger {
   padding: 0px;
 }
-.edrea_tm_topbar .hamburger-inner,
-.edrea_tm_topbar .hamburger-inner:after,
-.edrea_tm_topbar .hamburger-inner:before {
+._tm_topbar .hamburger-inner,
+._tm_topbar .hamburger-inner:after,
+._tm_topbar .hamburger-inner:before {
   width: 30px;
   height: 2px;
   background-color: #fff;
 }
-.edrea_tm_topbar .hamburger.is-active .hamburger-inner,
-.edrea_tm_topbar .hamburger.is-active .hamburger-inner:after,
-.edrea_tm_topbar .hamburger.is-active .hamburger-inner:before {
+._tm_topbar .hamburger.is-active .hamburger-inner,
+._tm_topbar .hamburger.is-active .hamburger-inner:after,
+._tm_topbar .hamburger.is-active .hamburger-inner:before {
   background-color: #fff;
 }
-.edrea_tm_topbar .trigger {
+._tm_topbar .trigger {
   position: relative;
   top: 5px;
 }
-.edrea_tm_topbar .hamburger-box {
+._tm_topbar .hamburger-box {
   width: 30px;
 }
-.edrea_tm_mobile_menu {
+._tm_mobile_menu {
   position: fixed;
   top: 50px;
   right: -200px;
@@ -311,49 +311,49 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_mobile_menu.opened {
+._tm_mobile_menu.opened {
   right: 0px;
 }
-.edrea_tm_mobile_menu .inner {
+._tm_mobile_menu .inner {
   position: relative;
   width: 100%;
   height: 100%;
   text-align: right;
   padding: 50px 20px 20px 20px;
 }
-.edrea_tm_mobile_menu .menu_list {
+._tm_mobile_menu .menu_list {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.edrea_tm_mobile_menu .menu_list ul {
+._tm_mobile_menu .menu_list ul {
   margin: 0px;
   list-style-type: none;
 }
-.edrea_tm_mobile_menu .menu_list ul li {
+._tm_mobile_menu .menu_list ul li {
   margin: 0px 0px 7px 0px;
 }
-.edrea_tm_mobile_menu .menu_list ul li a {
+._tm_mobile_menu .menu_list ul li a {
   text-decoration: none;
   color: #fff;
   font-family: "Poppins";
 }
-.edrea_tm_mobile_menu .menu_list ul li.active a {
+._tm_mobile_menu .menu_list ul li.active a {
   color: var(--main-color);
 }
 
 /*---------------------------------------------------*/
-/*	03) EDREA HEADER
+/*	03)  HEADER
 /*---------------------------------------------------*/
 
-.edrea_tm_header {
+._tm_header {
   position: fixed;
   width: 900px;
   transform: translateX(-50%);
   left: 50%;
 }
-.edrea_tm_header .header_inner {
+._tm_header .header_inner {
   width: 100%;
   height: auto;
   clear: both;
@@ -363,21 +363,21 @@ h6 {
   align-items: center;
   justify-content: space-between;
 }
-.edrea_tm_header .logo img {
+._tm_header .logo img {
   max-width: 100px;
 }
-.edrea_tm_header .menu ul {
+._tm_header .menu ul {
   margin: 0px;
   list-style-type: none;
 }
-.edrea_tm_header .menu ul li {
+._tm_header .menu ul li {
   margin: 0px 30px 0px 0px;
   display: inline-block;
 }
-.edrea_tm_header .menu ul li:last-child {
+._tm_header .menu ul li:last-child {
   margin-right: 0px;
 }
-.edrea_tm_header .menu ul li a {
+._tm_header .menu ul li a {
   text-decoration: none;
   color: #fff;
   font-family: "Poppins";
@@ -389,18 +389,18 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_header .menu ul li.active a {
+._tm_header .menu ul li.active a {
   color: var(--main-color);
 }
-.edrea_tm_header .menu ul li a:hover {
+._tm_header .menu ul li a:hover {
   color: var(--main-color);
 }
 
 /*---------------------------------------------------*/
-/*	04) EDREA CONTENT
+/*	04)  CONTENT
 /*---------------------------------------------------*/
 
-.edrea_tm_content {
+._tm_content {
   position: fixed;
   width: 900px;
   top: 100px;
@@ -408,7 +408,7 @@ h6 {
   left: 50%;
   transform: translateX(-50%);
 }
-.edrea_tm_section {
+._tm_section {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -425,25 +425,25 @@ h6 {
   -webkit-transition: visibility 0.5s linear, opacity 0s linear;
   -o-transition: visibility 0.5s linear, opacity 0s linear;
 }
-.edrea_tm_section.animated {
+._tm_section.animated {
   opacity: 1;
   visibility: visible;
   z-index: 9;
 }
-.edrea_tm_section.active {
+._tm_section.active {
   opacity: 1;
   visibility: visible;
   z-index: 10;
 }
-.edrea_tm_section.hidden {
+._tm_section.hidden {
   opacity: 0;
   visibility: hidden;
   z-index: 9;
 }
-.edrea_tm_section::-webkit-scrollbar {
+._tm_section::-webkit-scrollbar {
   width: 0px;
 }
-.edrea_tm_section .section_inner {
+._tm_section .section_inner {
   position: relative;
   width: 100%;
   min-height: 100%;
@@ -452,34 +452,34 @@ h6 {
 }
 
 /*---------------------------------------------------*/
-/*	05) EDREA HOME
+/*	05)  HOME
 /*---------------------------------------------------*/
 
-.edrea_tm_home {
+._tm_home {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   text-align: center;
 }
-.edrea_tm_home .name {
+._tm_home .name {
   color: #fff;
   font-size: 72px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.edrea_tm_home .job {
+._tm_home .job {
   font-size: 25px;
   font-weight: 500;
   color: #a2a2a2;
   margin-bottom: 40px;
 }
-.edrea_tm_home .job b {
+._tm_home .job b {
   color: #fff;
   font-weight: 600;
 }
-.edrea_tm_button {
+._tm_button {
   width: 100%;
   height: auto;
   clear: both;
@@ -487,7 +487,7 @@ h6 {
   position: relative;
   z-index: 5;
 }
-.edrea_tm_button a {
+._tm_button a {
   text-decoration: none;
   color: #fff;
   display: inline-block;
@@ -503,37 +503,37 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_button a:hover {
+._tm_button a:hover {
   background-color: #fff;
   color: #000;
 }
-.edrea_tm_button.full a {
+._tm_button.full a {
   display: block;
 }
 
 /*---------------------------------------------------*/
-/*	06) EDREA ABOUT
+/*	06)  ABOUT
 /*---------------------------------------------------*/
 
-.edrea_tm_about {
+._tm_about {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   display: flex;
 }
-.edrea_tm_about .left {
+._tm_about .left {
   width: 40%;
 }
-.edrea_tm_about .left .image {
+._tm_about .left .image {
   position: relative;
 }
-.edrea_tm_about .left .image img {
+._tm_about .left .image img {
   position: relative;
   min-width: 100%;
   opacity: 0;
 }
-.edrea_tm_about .left .image .main {
+._tm_about .left .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -544,50 +544,50 @@ h6 {
   background-position: center;
   border-radius: 10px;
 }
-.edrea_tm_about .right {
+._tm_about .right {
   width: 60%;
   padding-left: 100px;
 }
-.edrea_tm_about .right .short {
+._tm_about .right .short {
   width: 100%;
   float: left;
   margin-bottom: 24px;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
   padding-bottom: 30px;
 }
-.edrea_tm_about .right .short .name {
+._tm_about .right .short .name {
   text-transform: uppercase;
   margin-bottom: 15px;
   font-size: 40px;
   font-weight: 700;
 }
-.edrea_tm_about .right .short .job {
+._tm_about .right .short .job {
   font-size: 18px;
   font-weight: 400;
   color: #a2a2a2;
 }
-.edrea_tm_about .right .short .job b {
+._tm_about .right .short .job b {
   color: #fff;
   font-weight: 400;
 }
-.edrea_tm_about .right .text {
+._tm_about .right .text {
   width: 100%;
   float: left;
   margin-bottom: 36px;
 }
-.edrea_tm_about .right .text p {
+._tm_about .right .text p {
   margin-bottom: 15px;
 }
-.edrea_tm_about .right .text p:last-child {
+._tm_about .right .text p:last-child {
   margin-bottom: 0px;
 }
-.edrea_tm_about .right .text span {
+._tm_about .right .text span {
   color: #fff;
 }
 .coloring {
   color: var(--main-color);
 }
-.edrea_tm_modalbox {
+._tm_modalbox {
   position: fixed;
   top: 0px;
   left: 0px;
@@ -604,11 +604,11 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_modalbox.opened {
+._tm_modalbox.opened {
   opacity: 1;
   visibility: visible;
 }
-.edrea_tm_modalbox .box_inner {
+._tm_modalbox .box_inner {
   position: absolute;
   top: 70px;
   bottom: 70px;
@@ -629,19 +629,19 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_modalbox.opened .box_inner {
+._tm_modalbox.opened .box_inner {
   opacity: 1;
   visibility: visible;
   margin-top: 0px;
 }
-.edrea_tm_modalbox .close {
+._tm_modalbox .close {
   position: fixed;
   left: 100%;
   top: 0px;
   margin-left: 30px;
   z-index: 10;
 }
-.edrea_tm_modalbox .close a {
+._tm_modalbox .close a {
   display: block;
   width: 40px;
   height: 40px;
@@ -657,16 +657,16 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_modalbox .close a:hover {
+._tm_modalbox .close a:hover {
   border-radius: 100%;
 }
-.edrea_tm_modalbox .close a i {
+._tm_modalbox .close a i {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.edrea_tm_modalbox .description_wrap {
+._tm_modalbox .description_wrap {
   position: relative;
   width: 100%;
   height: 100%;
@@ -675,7 +675,7 @@ h6 {
   overflow: hidden;
   overflow-y: scroll;
 }
-.edrea_tm_modalbox .description_wrap:before {
+._tm_modalbox .description_wrap:before {
   position: fixed;
   content: "";
   top: 0px;
@@ -687,7 +687,7 @@ h6 {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.edrea_tm_modalbox .description_wrap:after {
+._tm_modalbox .description_wrap:after {
   position: fixed;
   content: "";
   bottom: 0px;
@@ -699,24 +699,24 @@ h6 {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.edrea_tm_modalbox .description_wrap::-webkit-scrollbar {
+._tm_modalbox .description_wrap::-webkit-scrollbar {
   width: 0px;
 }
-.edrea_tm_hidden_content {
+._tm_hidden_content {
   position: absolute;
   z-index: -111;
   visibility: hidden;
   opacity: 0;
   display: none;
 }
-.edrea_tm_modalbox .about_popup_details {
+._tm_modalbox .about_popup_details {
   width: 100%;
   height: 100%;
   clear: both;
   float: left;
   position: relative;
 }
-.edrea_tm_modalbox .about_popup_details .left {
+._tm_modalbox .about_popup_details .left {
   position: fixed;
   width: 40%;
   left: 0px;
@@ -725,7 +725,7 @@ h6 {
   border-right: 1px dashed rgba(255, 255, 255, 0.1);
   z-index: 5;
 }
-.edrea_tm_modalbox .about_popup_details .left .left_inner {
+._tm_modalbox .about_popup_details .left .left_inner {
   width: 100%;
   height: auto;
   clear: both;
@@ -733,24 +733,24 @@ h6 {
   position: relative;
   padding: 50px 40px;
 }
-.edrea_tm_modalbox .about_popup_details .left .author {
+._tm_modalbox .about_popup_details .left .author {
   width: 100%;
   float: left;
   margin-bottom: 35px;
   text-align: center;
   overflow: hidden;
 }
-.edrea_tm_modalbox .about_popup_details .left .avatar_image {
+._tm_modalbox .about_popup_details .left .avatar_image {
   position: relative;
   margin: 0px auto 25px auto;
   max-width: 50%;
 }
-.edrea_tm_modalbox .about_popup_details .left .avatar_image img {
+._tm_modalbox .about_popup_details .left .avatar_image img {
   position: relative;
   opacity: 0;
   min-width: 100%;
 }
-.edrea_tm_modalbox .about_popup_details .left .avatar_image .main {
+._tm_modalbox .about_popup_details .left .avatar_image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -761,34 +761,34 @@ h6 {
   background-position: center;
   border-radius: 100%;
 }
-.edrea_tm_modalbox .about_popup_details .left .short {
+._tm_modalbox .about_popup_details .left .short {
   width: 100%;
   float: left;
 }
-.edrea_tm_modalbox .about_popup_details .left .short .name {
+._tm_modalbox .about_popup_details .left .short .name {
   font-size: 22px;
   text-transform: uppercase;
   margin-bottom: 7px;
 }
-.edrea_tm_modalbox .about_popup_details .left .short .job {
+._tm_modalbox .about_popup_details .left .short .job {
   font-weight: 400;
   color: #a2a2a2;
   font-size: 15px;
 }
-.edrea_tm_modalbox .about_popup_details .left .short .job b {
+._tm_modalbox .about_popup_details .left .short .job b {
   color: #fff;
   font-weight: 400;
 }
-.edrea_tm_modalbox .about_popup_details .left .list {
+._tm_modalbox .about_popup_details .left .list {
   width: 100%;
   float: left;
   margin-bottom: 35px;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul {
+._tm_modalbox .about_popup_details .left .list ul {
   margin: 0px;
   list-style-type: none;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li {
+._tm_modalbox .about_popup_details .left .list ul li {
   margin: 0px;
   width: 100%;
   float: left;
@@ -796,18 +796,18 @@ h6 {
   padding-bottom: 7px;
   margin-bottom: 7px;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li:last-child {
+._tm_modalbox .about_popup_details .left .list ul li:last-child {
   border: none;
   padding: 0px;
   margin: 0px;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li .list_inner {
+._tm_modalbox .about_popup_details .left .list ul li .list_inner {
   margin: 0px;
   width: 100%;
   float: left;
   position: relative;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li i {
+._tm_modalbox .about_popup_details .left .list ul li i {
   color: var(--main-color);
   font-size: 16px;
   position: absolute;
@@ -815,10 +815,10 @@ h6 {
   top: 50%;
   transform: translateY(-50%);
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li span {
+._tm_modalbox .about_popup_details .left .list ul li span {
   padding-left: 37px;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li a {
+._tm_modalbox .about_popup_details .left .list ul li a {
   text-decoration: none;
   color: #fff;
 
@@ -828,10 +828,10 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_modalbox .about_popup_details .left .list ul li a:hover {
+._tm_modalbox .about_popup_details .left .list ul li a:hover {
   color: var(--main-color);
 }
-.edrea_tm_modalbox .about_popup_details .right {
+._tm_modalbox .about_popup_details .right {
   width: 100%;
   position: absolute;
   padding-left: 40%;
@@ -839,7 +839,7 @@ h6 {
   right: 0px;
   bottom: 0px;
 }
-.edrea_tm_modalbox .about_popup_details .right .right_inner {
+._tm_modalbox .about_popup_details .right .right_inner {
   width: 100%;
   height: auto;
   clear: both;
@@ -847,12 +847,12 @@ h6 {
   position: relative;
   padding: 50px 40px;
 }
-.edrea_tm_modalbox .about_popup_details .biography {
+._tm_modalbox .about_popup_details .biography {
   width: 100%;
   float: left;
   margin-bottom: 55px;
 }
-.edrea_tm_modalbox .about_popup_details .about_title {
+._tm_modalbox .about_popup_details .about_title {
   width: 100%;
   float: left;
   position: relative;
@@ -860,19 +860,19 @@ h6 {
   border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
   padding-bottom: 15px;
 }
-.edrea_tm_modalbox .about_popup_details .about_title h3 {
+._tm_modalbox .about_popup_details .about_title h3 {
   font-size: 18px;
   font-weight: 600;
 }
-.edrea_tm_modalbox .about_popup_details .biography .text {
+._tm_modalbox .about_popup_details .biography .text {
   width: 100%;
   float: left;
   margin-top: 29px;
 }
-.edrea_tm_modalbox .about_popup_details .biography .text span {
+._tm_modalbox .about_popup_details .biography .text span {
   color: #fff;
 }
-.edrea_tm_modalbox .about_popup_details .prog_skill {
+._tm_modalbox .about_popup_details .prog_skill {
   width: 100%;
   float: left;
   margin-bottom: 62px;
@@ -949,7 +949,7 @@ h6 {
   }
 }
 
-.edrea_tm_modalbox .about_popup_details .lang_skill {
+._tm_modalbox .about_popup_details .lang_skill {
   width: 100%;
   float: left;
   margin-bottom: 34px;
@@ -1003,33 +1003,33 @@ h6 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.edrea_tm_modalbox .about_popup_details .service {
+._tm_modalbox .about_popup_details .service {
   width: 100%;
   float: left;
   margin-bottom: 55px;
 }
-.edrea_tm_modalbox .about_popup_details .service .list {
+._tm_modalbox .about_popup_details .service .list {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   margin-top: 29px;
 }
-.edrea_tm_modalbox .about_popup_details .service .list ul {
+._tm_modalbox .about_popup_details .service .list ul {
   margin: 0px;
   list-style-type: none;
 }
-.edrea_tm_modalbox .about_popup_details .service .list ul li {
+._tm_modalbox .about_popup_details .service .list ul li {
   margin: 0px 0px 8px 0px;
   width: 100%;
   float: left;
   position: relative;
   padding-left: 25px;
 }
-.edrea_tm_modalbox .about_popup_details .service .list ul li:last-child {
+._tm_modalbox .about_popup_details .service .list ul li:last-child {
   margin-bottom: 0px;
 }
-.edrea_tm_modalbox .about_popup_details .service .list ul li i {
+._tm_modalbox .about_popup_details .service .list ul li i {
   position: absolute;
   left: -7px;
   top: 50%;
@@ -1038,26 +1038,26 @@ h6 {
   font-size: 16px;
   margin-top: 1px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline {
+._tm_modalbox .about_popup_details .timeline {
   width: 100%;
   float: left;
   margin-bottom: 55px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list {
+._tm_modalbox .about_popup_details .timeline .list {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   margin-top: 45px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul {
+._tm_modalbox .about_popup_details .timeline .list ul {
   margin: 0px;
   list-style-type: none;
   position: relative;
   display: inline-block;
   padding-top: 10px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul:before {
+._tm_modalbox .about_popup_details .timeline .list ul:before {
   content: "";
   position: absolute;
   width: 1px;
@@ -1066,7 +1066,7 @@ h6 {
   left: 0;
   background-color: rgba(255, 255, 255, 0.15);
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li {
+._tm_modalbox .about_popup_details .timeline .list ul li {
   margin: 0px;
   width: 100%;
   float: left;
@@ -1074,10 +1074,10 @@ h6 {
   padding-left: 20px;
   padding-bottom: 45px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li:last-child {
+._tm_modalbox .about_popup_details .timeline .list ul li:last-child {
   padding-bottom: 0px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li:before {
+._tm_modalbox .about_popup_details .timeline .list ul li:before {
   content: "";
   position: absolute;
   height: 12px;
@@ -1088,18 +1088,18 @@ h6 {
   left: -6px;
   top: 12px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li .list_inner {
+._tm_modalbox .about_popup_details .timeline .list ul li .list_inner {
   width: 100%;
   height: auto;
   clear: both;
   display: flex;
   position: relative;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li .time {
+._tm_modalbox .about_popup_details .timeline .list ul li .time {
   width: 50%;
   padding-right: 15px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li .time span {
+._tm_modalbox .about_popup_details .timeline .list ul li .time span {
   display: inline-block;
   padding: 5px 25px;
   background-color: rgba(255, 255, 255, 0.05);
@@ -1107,23 +1107,23 @@ h6 {
   font-size: 14px;
   white-space: nowrap;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li .place {
+._tm_modalbox .about_popup_details .timeline .list ul li .place {
   width: 50%;
   padding-left: 15px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li .place h3 {
+._tm_modalbox .about_popup_details .timeline .list ul li .place h3 {
   font-size: 15px;
   margin-bottom: 2px;
 }
-.edrea_tm_modalbox .about_popup_details .timeline .list ul li .place span {
+._tm_modalbox .about_popup_details .timeline .list ul li .place span {
   font-size: 14px;
 }
-.edrea_tm_modalbox .about_popup_details .partners {
+._tm_modalbox .about_popup_details .partners {
   width: 100%;
   float: left;
   margin-bottom: 62px;
 }
-.edrea_tm_modalbox .about_popup_details .partners .list {
+._tm_modalbox .about_popup_details .partners .list {
   width: 100%;
   float: left;
   clear: both;
@@ -1131,7 +1131,7 @@ h6 {
   border: 2px solid #333;
   margin-top: 40px;
 }
-.edrea_tm_modalbox .about_popup_details .partners .list ul {
+._tm_modalbox .about_popup_details .partners .list ul {
   margin: -2px -10px -2px -2px;
   list-style-type: none;
   padding-top: 2px;
@@ -1139,7 +1139,7 @@ h6 {
   padding-left: 2px;
   min-width: calc(100% + 12px);
 }
-.edrea_tm_modalbox .about_popup_details .partners .list ul li {
+._tm_modalbox .about_popup_details .partners .list ul li {
   margin: 0px;
   float: left;
   width: 50%;
@@ -1152,11 +1152,11 @@ h6 {
   margin-left: -2px;
   overflow: hidden;
 }
-.edrea_tm_modalbox .about_popup_details .partners .list ul li img {
+._tm_modalbox .about_popup_details .partners .list ul li img {
   max-width: 65%;
   max-height: 65px;
 }
-.edrea_tm_modalbox .about_popup_details .partners .list ul li .list_inner {
+._tm_modalbox .about_popup_details .partners .list ul li .list_inner {
   width: 100%;
   height: auto;
   clear: both;
@@ -1169,7 +1169,7 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .about_popup_details
   .partners
   .list
@@ -1178,23 +1178,23 @@ h6 {
   .list_inner:hover {
   opacity: 1;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial {
+._tm_modalbox .about_popup_details .testimonial {
   width: 100%;
   float: left;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .list {
+._tm_modalbox .about_popup_details .testimonial .list {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   margin-top: 54px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .list .swiper {
+._tm_modalbox .about_popup_details .testimonial .list .swiper {
   margin: 0px;
   list-style-type: none;
   cursor: e-resize;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .about_popup_details
   .testimonial
   .list
@@ -1202,7 +1202,7 @@ h6 {
   .swiper-slide {
   margin: 0px;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .about_popup_details
   .testimonial
   .list
@@ -1215,7 +1215,7 @@ h6 {
   float: left;
   position: relative;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .about_popup_details
   .testimonial
   .list
@@ -1231,7 +1231,7 @@ h6 {
   padding: 40px;
   margin-bottom: 30px;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .about_popup_details
   .testimonial
   .list
@@ -1248,7 +1248,7 @@ h6 {
   border-top-color: #333;
   border-width: 18px 18px 0px 0px;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .about_popup_details
   .testimonial
   .list
@@ -1266,7 +1266,7 @@ h6 {
   border-width: 14px 13px 0px 0px;
   margin-left: 2px;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .about_popup_details
   .testimonial
   .list
@@ -1281,7 +1281,7 @@ h6 {
   left: 50px;
   color: var(--main-color);
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .details {
+._tm_modalbox .about_popup_details .testimonial .details {
   width: 100%;
   height: auto;
   clear: both;
@@ -1290,12 +1290,12 @@ h6 {
   align-items: center;
   padding-left: 20px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .details .image {
+._tm_modalbox .about_popup_details .testimonial .details .image {
   position: relative;
   width: 60px;
   height: 60px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .details .image .main {
+._tm_modalbox .about_popup_details .testimonial .details .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1306,42 +1306,42 @@ h6 {
   background-position: center;
   border-radius: 100%;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .details .info {
+._tm_modalbox .about_popup_details .testimonial .details .info {
   padding-left: 20px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .details .info h3 {
+._tm_modalbox .about_popup_details .testimonial .details .info h3 {
   font-size: 15px;
   margin-bottom: 2px;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .details .info span {
+._tm_modalbox .about_popup_details .testimonial .details .info span {
   font-size: 14px;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .about_popup_details
   .testimonial
   .owl-carousel
   .owl-stage-outer {
   overflow: hidden;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .about_popup_details
   .testimonial
   .owl-carousel
   .owl-stage-outer {
   overflow: visible;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .owl-item.active {
+._tm_modalbox .about_popup_details .testimonial .owl-item.active {
   opacity: 1;
 }
-.edrea_tm_modalbox .about_popup_details .testimonial .owl-item {
+._tm_modalbox .about_popup_details .testimonial .owl-item {
   opacity: 0;
 }
 
 /*---------------------------------------------------*/
-/*	07) EDREA PORTFOLIO
+/*	07)  PORTFOLIO
 /*---------------------------------------------------*/
 
-.edrea_tm_main_title {
+._tm_main_title {
   width: 100%;
   height: auto;
   clear: both;
@@ -1349,23 +1349,23 @@ h6 {
   border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
   padding-bottom: 20px;
 }
-.edrea_tm_main_title h3 {
+._tm_main_title h3 {
   font-weight: 700;
 }
-.edrea_tm_portfolio {
+._tm_portfolio {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.edrea_tm_portfolio .portfolio_list {
+._tm_portfolio .portfolio_list {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   padding-top: 60px;
 }
-.edrea_tm_portfolio .portfolio_list .list_inner {
+._tm_portfolio .portfolio_list .list_inner {
   width: 100%;
   height: auto;
   clear: both;
@@ -1374,16 +1374,16 @@ h6 {
   border-radius: 10px;
   overflow: hidden;
 }
-.edrea_tm_portfolio .portfolio_list .image {
+._tm_portfolio .portfolio_list .image {
   position: relative;
   overflow: hidden;
 }
-.edrea_tm_portfolio .portfolio_list .image img {
+._tm_portfolio .portfolio_list .image img {
   position: relative;
   min-width: 100%;
   opacity: 0;
 }
-.edrea_tm_portfolio .portfolio_list .image .main {
+._tm_portfolio .portfolio_list .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1400,7 +1400,7 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_portfolio .portfolio_list .details {
+._tm_portfolio .portfolio_list .details {
   position: absolute;
   z-index: 2;
   bottom: -100px;
@@ -1416,30 +1416,30 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_portfolio .portfolio_list .details h3 {
+._tm_portfolio .portfolio_list .details h3 {
   color: #000;
   font-size: 15px;
   margin-bottom: 2px;
 }
-.edrea_tm_portfolio .portfolio_list .details span {
+._tm_portfolio .portfolio_list .details span {
   color: #777;
   font-size: 14px;
 }
-.edrea_tm_portfolio .portfolio_list .list_inner:hover .details {
+._tm_portfolio .portfolio_list .list_inner:hover .details {
   bottom: 20px;
 }
-.edrea_tm_portfolio .portfolio_list .list_inner:hover .image .main {
+._tm_portfolio .portfolio_list .list_inner:hover .image .main {
   transform: scale(1.1) translateZ(0);
 }
-.edrea_tm_full_link {
+._tm_full_link {
   position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: 5;
 }
-.edrea_tm_swiper_progress {
+._tm_swiper_progress {
   width: 100%;
   display: flex;
   align-items: center;
@@ -1447,11 +1447,11 @@ h6 {
   clear: both;
   margin-top: 32px;
 }
-.edrea_tm_swiper_progress .my_pagination_in {
+._tm_swiper_progress .my_pagination_in {
   float: left;
   position: relative;
 }
-.edrea_tm_swiper_progress span {
+._tm_swiper_progress span {
   display: block;
   float: left;
   font-size: 16px;
@@ -1460,12 +1460,12 @@ h6 {
   height: 22px;
   line-height: 22px;
 }
-.edrea_tm_swiper_progress .pagination_progress {
+._tm_swiper_progress .pagination_progress {
   width: 100px;
   margin: 0 20px;
   position: relative;
 }
-.edrea_tm_swiper_progress .pagination_progress .all {
+._tm_swiper_progress .pagination_progress .all {
   height: 1px;
   width: 100%;
   position: absolute;
@@ -1475,7 +1475,7 @@ h6 {
   left: 0;
   background-color: rgba(255, 255, 255, 0.2);
 }
-.edrea_tm_swiper_progress .pagination_progress .all span {
+._tm_swiper_progress .pagination_progress .all span {
   height: 1px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
@@ -1492,22 +1492,22 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_swiper_progress .my_navigation {
+._tm_swiper_progress .my_navigation {
   position: relative;
   left: 6px;
 }
-.edrea_tm_swiper_progress .my_navigation ul {
+._tm_swiper_progress .my_navigation ul {
   margin: 0px;
   list-style-type: none;
 }
-.edrea_tm_swiper_progress .my_navigation ul li {
+._tm_swiper_progress .my_navigation ul li {
   margin: 0px 10px 0px 0px;
   display: inline-block;
 }
-.edrea_tm_swiper_progress .my_navigation ul li:last-child {
+._tm_swiper_progress .my_navigation ul li:last-child {
   margin-right: 0px;
 }
-.edrea_tm_swiper_progress .my_navigation ul li a {
+._tm_swiper_progress .my_navigation ul li a {
   text-decoration: none;
   color: #fff;
   font-size: 14px;
@@ -1518,26 +1518,26 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_swiper_progress .my_navigation ul li a:hover {
+._tm_swiper_progress .my_navigation ul li a:hover {
   color: var(--main-color);
 }
-.edrea_tm_modalbox .portfolio_popup_details {
+._tm_modalbox .portfolio_popup_details {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   padding: 50px 50px 20px 50px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .top_image {
+._tm_modalbox .portfolio_popup_details .top_image {
   position: relative;
   margin-bottom: 25px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .top_image img {
+._tm_modalbox .portfolio_popup_details .top_image img {
   position: relative;
   opacity: 0;
   min-width: 100%;
 }
-.edrea_tm_modalbox .portfolio_popup_details .top_image .main {
+._tm_modalbox .portfolio_popup_details .top_image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1548,16 +1548,16 @@ h6 {
   background-position: center;
   border-radius: 10px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .portfolio_main_title {
+._tm_modalbox .portfolio_popup_details .portfolio_main_title {
   width: 100%;
   float: left;
   margin-bottom: 25px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .portfolio_main_title h3 {
+._tm_modalbox .portfolio_popup_details .portfolio_main_title h3 {
   font-size: 25px;
   margin-bottom: 3px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .portfolio_main_title a {
+._tm_modalbox .portfolio_popup_details .portfolio_main_title a {
   color: #a2a2a2;
   text-decoration: none;
 
@@ -1567,44 +1567,44 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_modalbox .portfolio_popup_details .portfolio_main_title a:hover {
+._tm_modalbox .portfolio_popup_details .portfolio_main_title a:hover {
   color: #fff;
 }
-.edrea_tm_modalbox .portfolio_popup_details .text {
+._tm_modalbox .portfolio_popup_details .text {
   width: 100%;
   float: left;
   margin-bottom: 42px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .text p {
+._tm_modalbox .portfolio_popup_details .text p {
   margin-bottom: 10px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .text p:last-child {
+._tm_modalbox .portfolio_popup_details .text p:last-child {
   margin-bottom: 0px;
 }
-.edrea_tm_modalbox .portfolio_popup_details .additional_images {
+._tm_modalbox .portfolio_popup_details .additional_images {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.edrea_tm_modalbox .portfolio_popup_details .additional_images ul {
+._tm_modalbox .portfolio_popup_details .additional_images ul {
   margin: 0px 0px 0px -30px;
   list-style-type: none;
 }
-.edrea_tm_modalbox .portfolio_popup_details .additional_images ul li {
+._tm_modalbox .portfolio_popup_details .additional_images ul li {
   margin: 0px 0px 30px 0px;
   float: left;
   width: 50%;
   padding-left: 30px;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .portfolio_popup_details
   .additional_images
   ul
   li:nth-child(3n-2) {
   width: 100%;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .portfolio_popup_details
   .additional_images
   ul
@@ -1616,10 +1616,10 @@ h6 {
   float: left;
   position: relative;
 }
-.edrea_tm_modalbox .portfolio_popup_details .additional_images ul li .image {
+._tm_modalbox .portfolio_popup_details .additional_images ul li .image {
   position: relative;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .portfolio_popup_details
   .additional_images
   ul
@@ -1629,7 +1629,7 @@ h6 {
   opacity: 0;
   min-width: 100%;
 }
-.edrea_tm_modalbox
+._tm_modalbox
   .portfolio_popup_details
   .additional_images
   ul
@@ -1648,23 +1648,23 @@ h6 {
 }
 
 /*---------------------------------------------------*/
-/*	08) EDREA NEWS
+/*	08)  NEWS
 /*---------------------------------------------------*/
 
-.edrea_tm_news {
+._tm_news {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.edrea_tm_news .news_list {
+._tm_news .news_list {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   padding-top: 60px;
 }
-.edrea_tm_news .news_list .list_inner {
+._tm_news .news_list .list_inner {
   width: 100%;
   height: auto;
   clear: both;
@@ -1673,16 +1673,16 @@ h6 {
   border-radius: 10px;
   overflow: hidden;
 }
-.edrea_tm_news .news_list .image {
+._tm_news .news_list .image {
   position: relative;
   overflow: hidden;
 }
-.edrea_tm_news .news_list .image img {
+._tm_news .news_list .image img {
   position: relative;
   opacity: 0;
   min-width: 100%;
 }
-.edrea_tm_news .news_list .image .main {
+._tm_news .news_list .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1699,20 +1699,20 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_news .news_list .image:hover .main {
+._tm_news .news_list .image:hover .main {
   transform: scale(1.1) translateZ(0);
 }
-.edrea_tm_news .news_list .details {
+._tm_news .news_list .details {
   width: 100%;
   float: left;
   background-color: #222;
   padding: 30px 20px 27px 20px;
 }
-.edrea_tm_news .news_list h3 {
+._tm_news .news_list h3 {
   font-size: 15px;
   margin-bottom: 4px;
 }
-.edrea_tm_news .news_list h3 a {
+._tm_news .news_list h3 a {
   text-decoration: none;
   color: #fff;
 
@@ -1722,10 +1722,10 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_news .news_list h3 a:hover {
+._tm_news .news_list h3 a:hover {
   color: var(--main-color);
 }
-.edrea_tm_news .news_list span a {
+._tm_news .news_list span a {
   text-decoration: none;
   color: #a2a2a2;
   font-size: 14px;
@@ -1736,26 +1736,26 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_news .news_list span a:hover {
+._tm_news .news_list span a:hover {
   color: #fff;
 }
-.edrea_tm_modalbox .news_popup_details {
+._tm_modalbox .news_popup_details {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
   padding: 50px 50px 42px 50px;
 }
-.edrea_tm_modalbox .news_popup_details .top_image {
+._tm_modalbox .news_popup_details .top_image {
   position: relative;
   margin-bottom: 25px;
 }
-.edrea_tm_modalbox .news_popup_details .top_image img {
+._tm_modalbox .news_popup_details .top_image img {
   position: relative;
   opacity: 0;
   min-width: 100%;
 }
-.edrea_tm_modalbox .news_popup_details .top_image .main {
+._tm_modalbox .news_popup_details .top_image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -1766,16 +1766,16 @@ h6 {
   background-position: center;
   border-radius: 10px;
 }
-.edrea_tm_modalbox .news_popup_details .news_main_title {
+._tm_modalbox .news_popup_details .news_main_title {
   width: 100%;
   float: left;
   margin-bottom: 25px;
 }
-.edrea_tm_modalbox .news_popup_details .news_main_title h3 {
+._tm_modalbox .news_popup_details .news_main_title h3 {
   font-size: 25px;
   margin-bottom: 3px;
 }
-.edrea_tm_modalbox .news_popup_details .news_main_title a {
+._tm_modalbox .news_popup_details .news_main_title a {
   color: #a2a2a2;
   text-decoration: none;
 
@@ -1785,31 +1785,31 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_modalbox .news_popup_details .news_main_title a:hover {
+._tm_modalbox .news_popup_details .news_main_title a:hover {
   color: #fff;
 }
-.edrea_tm_modalbox .news_popup_details .text {
+._tm_modalbox .news_popup_details .text {
   width: 100%;
   float: left;
 }
-.edrea_tm_modalbox .news_popup_details .text p {
+._tm_modalbox .news_popup_details .text p {
   margin-bottom: 10px;
 }
-.edrea_tm_modalbox .news_popup_details .text p:last-child {
+._tm_modalbox .news_popup_details .text p:last-child {
   margin-bottom: 0px;
 }
 
 /*---------------------------------------------------*/
-/*	09) EDREA CONTACT
+/*	09)  CONTACT
 /*---------------------------------------------------*/
 
-.edrea_tm_contact {
+._tm_contact {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.edrea_tm_contact .wrapper {
+._tm_contact .wrapper {
   width: 100%;
   height: auto;
   clear: both;
@@ -1817,23 +1817,23 @@ h6 {
   display: flex;
   padding-top: 60px;
 }
-.edrea_tm_contact .wrapper .left {
+._tm_contact .wrapper .left {
   width: 50%;
   padding-right: 50px;
 }
-.edrea_tm_contact .wrapper .left ul {
+._tm_contact .wrapper .left ul {
   margin: 0px;
   list-style-type: none;
 }
-.edrea_tm_contact .wrapper .left ul li {
+._tm_contact .wrapper .left ul li {
   margin: 0px 0px 20px 0px;
   width: 100%;
   float: left;
 }
-.edrea_tm_contact .wrapper .left ul li:last-child {
+._tm_contact .wrapper .left ul li:last-child {
   margin-bottom: 0px;
 }
-.edrea_tm_contact .wrapper .left ul li .list_inner {
+._tm_contact .wrapper .left ul li .list_inner {
   width: 100%;
   height: auto;
   clear: both;
@@ -1843,7 +1843,7 @@ h6 {
   border-radius: 10px;
   padding: 10px;
 }
-.edrea_tm_contact .wrapper .left ul li i {
+._tm_contact .wrapper .left ul li i {
   color: var(--main-color);
   font-size: 16px;
   position: absolute;
@@ -1852,11 +1852,11 @@ h6 {
   margin-top: 1px;
   transform: translateY(-50%);
 }
-.edrea_tm_contact .wrapper .left ul li span {
+._tm_contact .wrapper .left ul li span {
   display: inline-block;
   padding-left: 48px;
 }
-.edrea_tm_contact .wrapper .left ul li a {
+._tm_contact .wrapper .left ul li a {
   text-decoration: none;
   color: #fff;
 
@@ -1866,35 +1866,35 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_contact .wrapper .left ul li a:hover {
+._tm_contact .wrapper .left ul li a:hover {
   color: var(--main-color);
 }
-.edrea_tm_contact .wrapper .right {
+._tm_contact .wrapper .right {
   width: 50%;
   padding-left: 50px;
 }
-.edrea_tm_contact .fields {
+._tm_contact .fields {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.edrea_tm_contact .fields .first {
+._tm_contact .fields .first {
   width: 100%;
   float: left;
   margin-bottom: 20px;
 }
-.edrea_tm_contact .fields .first ul {
+._tm_contact .fields .first ul {
   margin: 0px 0px 0px -20px;
   list-style-type: none;
 }
-.edrea_tm_contact .fields .first ul li {
+._tm_contact .fields .first ul li {
   margin: 0px;
   width: 50%;
   padding-left: 20px;
   float: left;
 }
-.edrea_tm_contact .fields .first ul li .list_inner {
+._tm_contact .fields .first ul li .list_inner {
   width: 100%;
   height: auto;
   clear: both;
@@ -1902,7 +1902,7 @@ h6 {
   background-color: #222;
   border-radius: 10px;
 }
-.edrea_tm_contact .fields .first ul li input {
+._tm_contact .fields .first ul li input {
   width: 100%;
   height: 45px;
   background-color: transparent;
@@ -1911,17 +1911,17 @@ h6 {
   padding: 20px;
   font-family: "Poppins";
 }
-.edrea_tm_contact .fields .first ul li input:focus {
+._tm_contact .fields .first ul li input:focus {
   outline: none;
 }
-.edrea_tm_contact .fields .last {
+._tm_contact .fields .last {
   width: 100%;
   float: left;
   background-color: #222;
   border-radius: 10px;
   margin-bottom: 20px;
 }
-.edrea_tm_contact .fields .last textarea {
+._tm_contact .fields .last textarea {
   width: 100%;
   height: 108px;
   background-color: transparent;
@@ -1931,22 +1931,22 @@ h6 {
   padding: 20px;
   font-family: "Poppins";
 }
-.edrea_tm_contact .fields .last textarea:focus {
+._tm_contact .fields .last textarea:focus {
   outline: none;
 }
-.edrea_tm_contact .empty_notice {
+._tm_contact .empty_notice {
   color: #f52225;
   margin-bottom: 7px;
   display: none;
   text-align: left;
   font-weight: 500;
 }
-.edrea_tm_contact .contact_error {
+._tm_contact .contact_error {
   color: #f52225;
   text-align: left;
   font-weight: 500;
 }
-.edrea_tm_contact .returnmessage {
+._tm_contact .returnmessage {
   color: #3a00ff;
   text-align: left;
   font-weight: 500;
@@ -2002,7 +2002,7 @@ h6 {
 .cursor-outer.cursor-hover {
   opacity: 0;
 }
-.edrea_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor {
+._tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor {
   display: none;
   opacity: 0;
   visibility: hidden;
@@ -2014,7 +2014,7 @@ h6 {
 /*	08) SHANE SETTINGS
 /*---------------------------------------------------*/
 
-.edrea_tm_settings {
+._tm_settings {
   position: fixed;
   z-index: 10;
   top: 20%;
@@ -2029,29 +2029,29 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.edrea_tm_settings.opened {
+._tm_settings.opened {
   right: 0px;
 }
-.edrea_tm_settings .wrapper {
+._tm_settings .wrapper {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.edrea_tm_settings .icon {
+._tm_settings .icon {
   position: absolute;
   top: 0px;
   right: 100%;
   background-color: #222;
   padding: 12px 12px 4px 12px;
 }
-.edrea_tm_settings .icon .svg {
+._tm_settings .icon .svg {
   color: #fff;
   width: 25px;
   height: 25px;
   animation: fa-spin 2s infinite linear;
 }
-.edrea_tm_settings .link {
+._tm_settings .link {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -2080,7 +2080,7 @@ h6 {
     transform: rotate(359deg);
   }
 }
-.edrea_tm_settings .title {
+._tm_settings .title {
   color: #fff;
   font-family: "Poppins";
   font-weight: 600;
@@ -2088,7 +2088,7 @@ h6 {
   position: relative;
   display: inline-block;
 }
-.edrea_tm_settings .title:before {
+._tm_settings .title:before {
   position: absolute;
   content: "";
   width: 100%;
@@ -2097,16 +2097,16 @@ h6 {
   left: 0px;
   bottom: 0px;
 }
-.edrea_tm_settings .colors {
+._tm_settings .colors {
   margin: 0px 0px 22px 0px;
   list-style-type: none;
   padding-top: 32px;
 }
-.edrea_tm_settings .colors li {
+._tm_settings .colors li {
   margin: 0px;
   display: inline-block;
 }
-.edrea_tm_settings .colors li a {
+._tm_settings .colors li a {
   text-decoration: none;
   display: inline-block;
   width: 30px;
@@ -2114,25 +2114,25 @@ h6 {
   border-radius: 100%;
 }
 
-.edrea_tm_settings .cursor {
+._tm_settings .cursor {
   margin: 0px;
   list-style-type: none;
   padding-top: 15px;
 }
-.edrea_tm_settings .cursor li {
+._tm_settings .cursor li {
   margin: 0px 20px 0px 0px;
   display: inline-block;
 }
-.edrea_tm_settings .cursor li a {
+._tm_settings .cursor li a {
   text-decoration: none;
   color: #fff;
   opacity: 0.4;
   font-weight: 600;
 }
-.edrea_tm_settings .cursor li a.showme {
+._tm_settings .cursor li a.showme {
   opacity: 1;
 }
-.edrea_tm_settings .cursor li:nth-child(1) a {
+._tm_settings .cursor li:nth-child(1) a {
   width: 30px;
   height: 30px;
   border-radius: 100%;
@@ -2140,7 +2140,7 @@ h6 {
   position: relative;
   display: inline-block;
 }
-.edrea_tm_settings .cursor li:nth-child(1) a:before {
+._tm_settings .cursor li:nth-child(1) a:before {
   position: absolute;
   content: "";
   width: 4px;
@@ -2151,112 +2151,112 @@ h6 {
   left: 50%;
   top: 50%;
 }
-.edrea_tm_settings .cursor li .svg {
+._tm_settings .cursor li .svg {
   width: 25px;
   height: 25px;
   color: #fff;
 }
-.edrea_tm_settings .cursor li:nth-child(2) {
+._tm_settings .cursor li:nth-child(2) {
   position: relative;
   top: -2px;
 }
 
 /*---------------------------------------------------*/
-/*	11) EDREA MEDIA QUERIES (FOR SMALL DEVICES)
+/*	11)  MEDIA QUERIES (FOR SMALL DEVICES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1400px) {
   body {
     font-size: 15px;
   }
-  .edrea_tm_header {
+  ._tm_header {
     width: 800px;
   }
-  .edrea_tm_header .header_inner {
+  ._tm_header .header_inner {
     padding-top: 30px;
   }
-  .edrea_tm_content {
+  ._tm_content {
     top: 80px;
     bottom: 80px;
     width: 800px;
   }
-  .edrea_tm_home .name {
+  ._tm_home .name {
     font-size: 55px;
     margin-bottom: 17px;
   }
-  .edrea_tm_home .job {
+  ._tm_home .job {
     font-size: 23px;
     margin-bottom: 32px;
   }
-  .edrea_tm_about .right .short .name {
+  ._tm_about .right .short .name {
     font-size: 32px;
     margin-bottom: 12px;
   }
-  .edrea_tm_about .right .short {
+  ._tm_about .right .short {
     margin-bottom: 20px;
     padding-bottom: 25px;
   }
-  .edrea_tm_about .right .short {
+  ._tm_about .right .short {
     margin-bottom: 30px;
   }
-  .edrea_tm_about .right {
+  ._tm_about .right {
     padding-left: 75px;
   }
-  .edrea_tm_about .right .text {
+  ._tm_about .right .text {
     margin-bottom: 30px;
   }
-  .edrea_tm_modalbox .box_inner {
+  ._tm_modalbox .box_inner {
     width: 700px;
     top: 35px;
     bottom: 35px;
   }
-  .edrea_tm_modalbox .close {
+  ._tm_modalbox .close {
     margin-left: 20px;
   }
-  .edrea_tm_modalbox .close a {
+  ._tm_modalbox .close a {
     width: 35px;
     height: 35px;
   }
-  .edrea_tm_modalbox .about_popup_details .left {
+  ._tm_modalbox .about_popup_details .left {
     width: 35%;
   }
-  .edrea_tm_modalbox .about_popup_details .right {
+  ._tm_modalbox .about_popup_details .right {
     padding-left: 35%;
   }
-  .edrea_tm_modalbox .about_popup_details .left .left_inner {
+  ._tm_modalbox .about_popup_details .left .left_inner {
     padding: 30px 25px;
   }
-  .edrea_tm_modalbox .about_popup_details .left .short .name {
+  ._tm_modalbox .about_popup_details .left .short .name {
     font-size: 19px;
     margin-bottom: 5px;
   }
-  .edrea_tm_modalbox .about_popup_details .left .list ul li {
+  ._tm_modalbox .about_popup_details .left .list ul li {
     padding-bottom: 5px;
     margin-bottom: 5px;
   }
-  .edrea_tm_button a {
+  ._tm_button a {
     padding: 8px 40px;
   }
-  .edrea_tm_modalbox .about_popup_details .left .list ul li span {
+  ._tm_modalbox .about_popup_details .left .list ul li span {
     padding-left: 32px;
     font-size: 14px;
   }
-  .edrea_tm_modalbox .about_popup_details .left .list ul li i {
+  ._tm_modalbox .about_popup_details .left .list ul li i {
     font-size: 15px;
   }
-  .edrea_tm_contact .wrapper {
+  ._tm_contact .wrapper {
     padding-top: 50px;
   }
-  .edrea_tm_portfolio .portfolio_list {
+  ._tm_portfolio .portfolio_list {
     padding-top: 50px;
   }
-  .edrea_tm_news .news_list {
+  ._tm_news .news_list {
     padding-top: 50px;
   }
-  .edrea_tm_news .news_list .image {
+  ._tm_news .news_list .image {
     max-height: 150px;
   }
-  .edrea_tm_news .news_list .details {
+  ._tm_news .news_list .details {
     padding: 25px 20px 22px 20px;
   }
 }
@@ -2267,157 +2267,157 @@ h6 {
   #preloader {
     display: none;
   }
-  .edrea_tm_header {
+  ._tm_header {
     display: none;
   }
-  .edrea_tm_topbar {
+  ._tm_topbar {
     display: block;
   }
-  .edrea_tm_content {
+  ._tm_content {
     width: 100%;
     top: 70px;
     bottom: 70px;
   }
-  .edrea_tm_home {
+  ._tm_home {
     padding: 0px 20px;
   }
-  .edrea_tm_about {
+  ._tm_about {
     flex-direction: column;
     align-items: baseline;
     padding: 0px 20px;
   }
-  .edrea_tm_about .left {
+  ._tm_about .left {
     width: 100%;
     margin-bottom: 40px;
   }
-  .edrea_tm_about .right {
+  ._tm_about .right {
     width: 100%;
     padding-left: 0px;
   }
-  .edrea_tm_about .right .short .name {
+  ._tm_about .right .short .name {
     font-size: 30px;
     margin-bottom: 13px;
   }
-  .edrea_tm_about .right .short .job {
+  ._tm_about .right .short .job {
     font-size: 16px;
   }
-  .edrea_tm_about .right .short {
+  ._tm_about .right .short {
     margin-bottom: 19px;
     padding-bottom: 25px;
   }
-  .edrea_tm_modalbox .box_inner {
+  ._tm_modalbox .box_inner {
     width: 700px;
   }
-  .edrea_tm_modalbox .close {
+  ._tm_modalbox .close {
     left: auto;
     right: 10px;
     top: 10px;
   }
-  .edrea_tm_modalbox .close a {
+  ._tm_modalbox .close a {
     width: 30px;
     height: 30px;
   }
-  .edrea_tm_modalbox .close a i {
+  ._tm_modalbox .close a i {
     font-size: 13px;
   }
-  .edrea_tm_modalbox .about_popup_details .left {
+  ._tm_modalbox .about_popup_details .left {
     position: relative;
     width: 100%;
     border: none;
   }
-  .edrea_tm_modalbox .about_popup_details .right {
+  ._tm_modalbox .about_popup_details .right {
     position: relative;
     padding: 0px;
   }
-  .edrea_tm_modalbox .about_popup_details .left .avatar_image {
+  ._tm_modalbox .about_popup_details .left .avatar_image {
     max-width: 50%;
   }
-  .edrea_tm_modalbox .about_popup_details .right .right_inner {
+  ._tm_modalbox .about_popup_details .right .right_inner {
     padding: 20px 20px 50px 20px;
   }
-  .edrea_tm_modalbox .about_popup_details .left .left_inner {
+  ._tm_modalbox .about_popup_details .left .left_inner {
     padding: 50px 20px;
   }
-  .edrea_tm_main_title h3 {
+  ._tm_main_title h3 {
     font-size: 26px;
   }
-  .edrea_tm_portfolio {
+  ._tm_portfolio {
     padding: 0px 20px;
   }
-  .edrea_tm_swiper_progress {
+  ._tm_swiper_progress {
     margin-top: 25px;
   }
-  .edrea_tm_news {
+  ._tm_news {
     padding: 0px 20px;
   }
-  .edrea_tm_news .news_list .image {
+  ._tm_news .news_list .image {
     max-height: 100%;
   }
-  .edrea_tm_contact {
+  ._tm_contact {
     padding: 0px 20px;
   }
-  .edrea_tm_contact .wrapper {
+  ._tm_contact .wrapper {
     flex-direction: column;
     align-items: baseline;
   }
-  .edrea_tm_contact .wrapper .left {
+  ._tm_contact .wrapper .left {
     padding: 0px;
     width: 100%;
     margin-bottom: 20px;
   }
-  .edrea_tm_contact .wrapper .right {
+  ._tm_contact .wrapper .right {
     padding: 0px;
     width: 100%;
   }
-  .edrea_tm_contact .fields .first ul {
+  ._tm_contact .fields .first ul {
     margin: 0px;
   }
-  .edrea_tm_contact .fields .first ul li {
+  ._tm_contact .fields .first ul li {
     width: 100%;
     padding-left: 0px;
   }
-  .edrea_tm_contact .fields .first ul li:first-child {
+  ._tm_contact .fields .first ul li:first-child {
     margin-bottom: 20px;
   }
 }
 @media (max-width: 768px) {
-  .edrea_tm_home .name {
+  ._tm_home .name {
     font-size: 40px;
     margin-bottom: 14px;
   }
-  .edrea_tm_home .job {
+  ._tm_home .job {
     font-size: 18px;
     margin-bottom: 30px;
   }
-  .edrea_tm_modalbox .box_inner {
+  ._tm_modalbox .box_inner {
     width: 300px;
   }
-  .edrea_tm_modalbox .close a {
+  ._tm_modalbox .close a {
     width: 20px;
     height: 20px;
   }
-  .edrea_tm_modalbox .close a i {
+  ._tm_modalbox .close a i {
     font-size: 10px;
   }
   .circular_progress_bar ul li {
     width: 50%;
   }
-  .edrea_tm_modalbox .about_popup_details .timeline .list ul li .list_inner {
+  ._tm_modalbox .about_popup_details .timeline .list ul li .list_inner {
     flex-direction: column;
   }
-  .edrea_tm_modalbox .about_popup_details .timeline .list ul li .place {
+  ._tm_modalbox .about_popup_details .timeline .list ul li .place {
     padding-left: 0px;
     width: 100%;
   }
-  .edrea_tm_modalbox .about_popup_details .timeline .list ul li .time {
+  ._tm_modalbox .about_popup_details .timeline .list ul li .time {
     width: auto;
     padding: 0px;
     margin-bottom: 20px;
   }
-  .edrea_tm_modalbox .about_popup_details .testimonial .list ul li .text {
+  ._tm_modalbox .about_popup_details .testimonial .list ul li .text {
     padding: 30px;
   }
-  .edrea_tm_modalbox
+  ._tm_modalbox
     .about_popup_details
     .testimonial
     .list
@@ -2426,37 +2426,37 @@ h6 {
     .text:before {
     left: 30px;
   }
-  .edrea_tm_modalbox .about_popup_details .testimonial .list ul li .text:after {
+  ._tm_modalbox .about_popup_details .testimonial .list ul li .text:after {
     left: 30px;
   }
-  .edrea_tm_modalbox .about_popup_details .testimonial .details {
+  ._tm_modalbox .about_popup_details .testimonial .details {
     padding-left: 0px;
   }
-  .edrea_tm_modalbox .portfolio_popup_details {
+  ._tm_modalbox .portfolio_popup_details {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .edrea_tm_modalbox .portfolio_popup_details .portfolio_main_title h3 {
+  ._tm_modalbox .portfolio_popup_details .portfolio_main_title h3 {
     font-size: 20px;
   }
-  .edrea_tm_modalbox .portfolio_popup_details .additional_images ul {
+  ._tm_modalbox .portfolio_popup_details .additional_images ul {
     margin: 0px;
   }
-  .edrea_tm_modalbox .portfolio_popup_details .additional_images ul li {
+  ._tm_modalbox .portfolio_popup_details .additional_images ul li {
     width: 100% !important;
     padding-left: 0px;
   }
-  .edrea_tm_modalbox .portfolio_popup_details .portfolio_main_title {
+  ._tm_modalbox .portfolio_popup_details .portfolio_main_title {
     margin-bottom: 18px;
   }
-  .edrea_tm_modalbox .news_popup_details {
+  ._tm_modalbox .news_popup_details {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .edrea_tm_modalbox .news_popup_details .news_main_title h3 {
+  ._tm_modalbox .news_popup_details .news_main_title h3 {
     font-size: 20px;
   }
-  .edrea_tm_modalbox .news_popup_details .news_main_title {
+  ._tm_modalbox .news_popup_details .news_main_title {
     margin-bottom: 18px;
   }
 }

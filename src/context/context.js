@@ -47,21 +47,21 @@ const state = (props) => {
     activeSection(value);
   };
   const getMagicCursor = (value) => {
-    let cursor = localStorage.getItem("edreaa-megic-cursor");
+    let cursor = localStorage.getItem("a-megic-cursor");
     dispatch({
       type: type.CURSOR,
       payload: cursor ? cursor : value,
     });
     document
-      .querySelector(".edrea_tm_all_wrap")
+      .querySelector("._tm_all_wrap")
       .setAttribute("data-magic-cursor", cursor ? cursor : value);
   };
 
   const changeCursor = (value) => {
     document
-      .querySelector(".edrea_tm_all_wrap")
+      .querySelector("._tm_all_wrap")
       .setAttribute("data-magic-cursor", value);
-    localStorage.setItem("edreaa-megic-cursor", value);
+    localStorage.setItem("a-megic-cursor", value);
     dispatch({
       type: type.CURSOR,
       payload: value,
@@ -69,7 +69,7 @@ const state = (props) => {
   };
 
   const getColor = (value) => {
-    let color = localStorage.getItem("edreaa-color");
+    let color = localStorage.getItem("a-color");
     document.documentElement.style.setProperty(
       "--main-color",
       color ? color : value
@@ -82,7 +82,7 @@ const state = (props) => {
 
   const colorChange = (value) => {
     document.documentElement.style.setProperty("--main-color", value);
-    localStorage.setItem("edreaa-color", value);
+    localStorage.setItem("a-color", value);
     dispatch({
       type: type.COLOR,
       payload: value,

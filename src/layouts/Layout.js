@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
       <ImageView />
       <VideoPopup />
       <div
-        className="edrea_tm_all_wrap"
+        className="_tm_all_wrap"
         data-magic-cursor="show"
         data-enter="fadeInUp"
         data-exit=""
@@ -62,7 +62,7 @@ const Layout = ({ children }) => {
         <Header />
         {/* /HEADER */}
         {/* CONTENT */}
-        <div className="edrea_tm_content">{children}</div>
+        <div className="_tm_content">{children}</div>
         {/* /CONTENT */}
         {/* MAGIC CURSOR */}
         <Mouse />

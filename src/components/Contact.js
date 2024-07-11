@@ -42,10 +42,10 @@ const Contact = () => {
     }, 2000);
   };
   return (
-    <div className="edrea_tm_section hidden animated" id="contact">
+    <div className="_tm_section hidden animated" id="contact">
       <div className="section_inner">
-        <div className="edrea_tm_contact">
-          <div className="edrea_tm_main_title">
+        <div className="_tm_contact">
+          <div className="_tm_main_title">
             <h3>
               Get in <span className="coloring">Touch</span>
             </h3>
@@ -157,7 +157,7 @@ const Contact = () => {
                       value={message}
                     />
                   </div>
-                  <div className="edrea_tm_button" >
+                  <div className="_tm_button" >
                     <input className="a" type="submit" value="SUBMIT" />
                   </div>
                   {/* If you want change mail address to yours, just open "modal" folder >> contact.php and go to line 4 and change detail to yours.  */}

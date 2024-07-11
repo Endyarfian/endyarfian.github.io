@@ -13,9 +13,9 @@ const Home = ({ activeWithBtn }) => {
   const { changeNav } = navContext;
 
   return (
-    <div className="edrea_tm_section animated" id="home">
+    <div className="_tm_section animated" id="home">
       <div className="section_inner">
-        <div className="edrea_tm_home">
+        <div className="_tm_home">
           <h3 className="name">
             {homeData.firstName}{" "}
             <span className="coloring">{homeData.lastName}</span>
@@ -23,7 +23,7 @@ const Home = ({ activeWithBtn }) => {
           <h3 className="job">
             <AnimatedText />
           </h3>
-          <div className="edrea_tm_button transition_link">
+          <div className="_tm_button transition_link">
             <a href="#contact" onClick={() => changeNav("contact")}>
               Get in Touch
             </a>
