@@ -18,13 +18,10 @@ const PortfolioModal2 = ({ close, open }) => {
 
         <div className="text">
           <p>
-            Dalam pengembangan Sistem Informasi Pemantauan Hutan (SIMPATA), terdapat salah satunya kegiatan registrasi dan inventarisasi hutan rakyat, dalam pengembangan ini mengintegrasikan 
-            sistem yang sudah ada kemudian ditambahkan sistem yang mampu mengakomodir regitrasi dan inventarisasi hutan rakyat di Jawa Timur khususnya. fitur utama dalam sistem ini adalah
-            pendataan hutan rakyat, inventarisasi, hingga perhitungan potensi tegakan menggunakan metode Case Base Reasoning (CBR).  
+          In the development of the Forest Monitoring Information System (SIMPATA), there is one of the activities of registration and inventory of community forests, in this development integrating the existing system and then adding a system that is able to accommodate the registration and inventory of community forests in East Java in particular. the main features in this system are community forest data collection, inventory, and calculation of potential stands using the Case Base Reasoning (CBR) method.  
           </p>
           <p>
-            teknologi frontend yang digunakan adalah HTML, CSS, dan JavaScript. sedangkan backendnya menggunakan PHP dengan framework Laravel dan MySQL sebagai databasenya. 
-            adapun kendalanya adalah memadukan sistem yang sudah ada dengan sistem yang dibuat, selain itu juga memadukan data berupa data spasial dan data terestrial.
+          The frontend technology used is HTML, CSS, and JavaScript. while the backend uses PHP with the Laravel framework and MySQL as the database. As for the obstacles, it is to combine the existing system with the system created, besides that it also combines data in the form of spatial data and terrestrial data.
           </p>
         </div>
         <div className="additional_images">
